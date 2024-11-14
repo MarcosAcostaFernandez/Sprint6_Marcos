@@ -6,7 +6,8 @@ import streamlit as st
 st.header('EDA_CARS')
 
 # Leer los datos
-car_data = pd.read_csv('https://raw.githubusercontent.com/MarcosAcostaFernandez/Sprint6_Marcos/main/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
+
 
 
 
